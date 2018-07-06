@@ -7,6 +7,8 @@ git config --global user.name "landonain" #sets user name
 git status # shows the changes pending
 git commit -m "This is a message added to the changes" # commits the changes for pushing to the server
 git push origin master # pushes the changes to the remote master branch of git
+git rebase origin/master # pulls the changes from the server branch to the local branch and forces a merge
+
 
 # http://rogerdudler.github.io/git-guide/
 # https://guides.github.com/activities/hello-world/
